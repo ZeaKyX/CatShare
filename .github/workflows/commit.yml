@@ -1,6 +1,12 @@
 name: Debug Build
 
 on:
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: 'Debug build'
+        required: false
+        default: 'n'
   push:
     paths-ignore:
       - "**.md"
