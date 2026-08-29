@@ -34,7 +34,7 @@
     <string name="receiver_stopped">Receiver stopped</string>
     <string name="shizuku_available">Shizuku is available</string>
     <string name="shizuku_unavailable">Shizuku unavailable</string>
-    <string name="shizuku_desc">Shizuku is used to obtain your device\'s MAC address</string>
+    <string name="shizuku_desc">Shizuku can be used to obtain your device\'s MAC address</string>
     <string name="shizuku_not_granted">Shizuku permission not granted</string>
     <string name="title_activity_share">Send Files</string>
     <string name="sending">Sending</string>
