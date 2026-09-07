@@ -46,7 +46,7 @@ class AppSettings(private val context: Context) {
                 return null
             }
 
-            if (!cleaned.all { it.isDigit() || it.lowercaseChar() in "abcdef" }) {
+            if (!cleaned.all { it in '0'..'9' || it.lowercaseChar() in 'a'..'f' }) {
                 return null
             }
 
